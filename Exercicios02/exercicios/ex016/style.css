@@ -1,0 +1,31 @@
+@charset "UTF-8" 
+ * /* o asterisco ele é uma rgra no CSS*/
+ /* @CHARSET É OBRIGATORIO USAR EM CSS PARA FUNCIONAR O PT-BR*/{
+    font-family: Arial, Helvetica, sans-serif; /* FONT FAMILY É A FONTA DE TODAS AS LETRAS*/
+    /*height: 100% - ainda vou saber o que é*/ 
+ }
+
+ body {
+    background-image: linear-gradient( to right, #f1D8C9, #F2C3A7);
+ }
+ main {
+    background-color: white; /* COR DO FUNDO*/
+    border-radius: 10px; /* PONTINHA DAS BORDAS */
+    box-shadow: 5px 5px 15px rgba(129, 101, 85, 0.616); /* SOMBRA ATRAS DAS FOLHAS*/
+    width: 600px; /* TAMANHO/LARGURA DA FOLHA */
+    padding: 10px; /* ACOCHOAMENTO, ENGORDADINHA DA FOLHA */
+    margin: auto; /* CENTRALIZA CONFORME VAI AJUSTANDO A PAGINA*/
+ }
+ h1 {
+color: #f39209;
+text-align: center; /* serve para alinhas o texto no centro*/
+text-shadow: 1px 1px 0px #995c07b6; /*SOMBRINHA NO TEXTO*/
+ }
+
+ h2 { color: #125189;
+
+ }
+ p {
+    text-align: justify;
+
+ }

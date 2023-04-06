@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em html5</title>
+</head>
+<body>
+    <h1> imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+<picture>
+    <source media="(max-width: 750px)" srcset="tamanhos/tamanho-P.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="tamanhos/tamanho-M.png" type="image/png">
+    <img src="tamanhos/tamanho-G.png" alt="imagem flexivel">
+</picture>
+    <!-- picture>source media type......a base seria a IMG, colocar o diretorio dele e ir editando....logo acima colocar MAX WIDTH do maior para o menor 1050px e 750px que são tamanhos interessantes de se colocar...em srcset, devo colocar o diertorio manualmente, sempre o tamanho inferior da BASE....G para M e M para P e no fim da tag colocar p png...prestar a atenção-->
+<h1>Reproduzindo Áudio</h1>
+<p>vamos aprender a reproduzir audios em HTML5</p>
+<audio src="midia/musica do léo completa.mp3" controls autoplay></audio> <!--Aqui foi o modo simples....os arquivos que são aceitaveis...MP3 WAV, OGG-->
+<audio preload="metadata" autoplay controls loop>
+    <source src="midia/musica do léo completa.mp3" type="audio/mpeg">
+    <source src="midia/musica do léo completa.ogg" type="audio/ogg">
+    <source src="midia/musica do léo completa.wav" type="audio/wav">
+    <p>infelizmente seu navegador não nao consegue reproduzir o audio.</p>
+    <a href="midia/musica do léo completa.mp3">clique aqui para baixar o arquivo mp3.</a>
+</audio>
+</body>
+</html>
